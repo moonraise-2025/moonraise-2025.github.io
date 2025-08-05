@@ -12,7 +12,7 @@ async function migratev1v2() {
         const lines = data.split('\n').filter(line => line.trim());
         const json = lines.map(line => {
             const [id, slug] = line.split('\t');
-            return { id, slug };
+            return { id: id.trim(), slug: slug.trim() };
         });
 
         const notFound = [];
