@@ -1,0 +1,15 @@
+{
+  "name": "moonraise-2025.github.io",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u00003\u0000-\u0000d\u0000h\u0000b\u0000c\u0000-\u0000a\u0000s\u0000s\u0000e\u0000t\u0000s\u0000\r\u0000 \u0000",
+  "main": "migratev1v2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "sharp": "^0.34.3"
+  }
+}
